@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "d:\\officework\\github\\gameplayabilitysystem_aura-main\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ridershaderinfo\\module.ridershaderinfo.cpp",
+        "Source": "d:\\officework\\github\\gasproject_demo\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ridershaderinfo\\module.ridershaderinfo.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "d:\\officework\\github\\gameplayabilitysystem_aura-main\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ridershaderinfo\\definitions.h",
-            "d:\\officework\\github\\gameplayabilitysystem_aura-main\\plugins\\developer\\riderlink\\source\\ridershaderinfo\\ridershaderinfo.cpp",
-            "d:\\officework\\github\\gameplayabilitysystem_aura-main\\plugins\\developer\\riderlink\\source\\ridershaderinfo\\ridershaderinfo.h",
+            "d:\\officework\\github\\gasproject_demo\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ridershaderinfo\\definitions.h",
+            "d:\\officework\\github\\gasproject_demo\\plugins\\developer\\riderlink\\source\\ridershaderinfo\\ridershaderinfo.cpp",
+            "d:\\officework\\github\\gasproject_demo\\plugins\\developer\\riderlink\\source\\ridershaderinfo\\ridershaderinfo.h",
             "f:\\epicgames\\epic games\\ue_5.3\\engine\\source\\runtime\\core\\public\\modules\\moduleinterface.h",
             "f:\\epicgames\\epic games\\ue_5.3\\engine\\source\\runtime\\core\\public\\coretypes.h",
             "f:\\epicgames\\epic games\\ue_5.3\\engine\\source\\runtime\\core\\public\\hal\\platform.h",

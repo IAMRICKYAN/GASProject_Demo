@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "d:\\officework\\github\\gameplayabilitysystem_aura-main\\plugins\\developer\\riderlink\\source\\rd\\src\\rd_framework_cpp\\src\\main\\base\\iserializersowner.cpp",
+        "Source": "d:\\officework\\github\\gasproject_demo\\plugins\\developer\\riderlink\\source\\rd\\src\\rd_framework_cpp\\src\\main\\base\\iserializersowner.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "d:\\officework\\github\\gameplayabilitysystem_aura-main\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\rd\\definitions.h",
-            "d:\\officework\\github\\gameplayabilitysystem_aura-main\\plugins\\developer\\riderlink\\source\\rd\\src\\rd_framework_cpp\\src\\main\\base\\iserializersowner.h",
+            "d:\\officework\\github\\gasproject_demo\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\rd\\definitions.h",
+            "d:\\officework\\github\\gasproject_demo\\plugins\\developer\\riderlink\\source\\rd\\src\\rd_framework_cpp\\src\\main\\base\\iserializersowner.h",
             "d:\\officework\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\unordered_set",
             "d:\\officework\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\yvals_core.h",
             "d:\\officework\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\vcruntime.h",
@@ -86,7 +86,7 @@
             "d:\\officework\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\xstring",
             "d:\\officework\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\iosfwd",
             "d:\\officework\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.39.33519\\include\\xnode_handle.h",
-            "d:\\officework\\github\\gameplayabilitysystem_aura-main\\plugins\\developer\\riderlink\\source\\rd\\src\\rd_framework_cpp\\rd_framework_export.h"
+            "d:\\officework\\github\\gasproject_demo\\plugins\\developer\\riderlink\\source\\rd\\src\\rd_framework_cpp\\rd_framework_export.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

@@ -1,8 +1,8 @@
-"D:\OfficeWork\Github\GameplayAbilitySystem_Aura-main\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderGameControl\Module.RiderGameControl.cpp"
-/FI"D:\OfficeWork\Github\GameplayAbilitySystem_Aura-main\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderGameControl\Definitions.h"
-/Fo"D:\OfficeWork\Github\GameplayAbilitySystem_Aura-main\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderGameControl\Module.RiderGameControl.cpp.obj"
-/sourceDependencies "D:\OfficeWork\Github\GameplayAbilitySystem_Aura-main\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderGameControl\Module.RiderGameControl.cpp.dep.json"
-@"D:\OfficeWork\Github\GameplayAbilitySystem_Aura-main\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderGameControl\RiderGameControl.Shared.rsp"
+"D:\OfficeWork\Github\GASProject_Demo\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderGameControl\Module.RiderGameControl.cpp"
+/FI"D:\OfficeWork\Github\GASProject_Demo\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderGameControl\Definitions.h"
+/Fo"D:\OfficeWork\Github\GASProject_Demo\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderGameControl\Module.RiderGameControl.cpp.obj"
+/sourceDependencies "D:\OfficeWork\Github\GASProject_Demo\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderGameControl\Module.RiderGameControl.cpp.dep.json"
+@"D:\OfficeWork\Github\GASProject_Demo\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderGameControl\RiderGameControl.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi

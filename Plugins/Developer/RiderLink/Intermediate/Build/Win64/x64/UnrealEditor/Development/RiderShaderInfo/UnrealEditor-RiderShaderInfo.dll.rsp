@@ -35,8 +35,8 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN:6
 /NATVIS:"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\RenderCore\RenderCore.natvis"
-"D:\OfficeWork\Github\GameplayAbilitySystem_Aura-main\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderShaderInfo\Module.RiderShaderInfo.cpp.obj"
-"D:\OfficeWork\Github\GameplayAbilitySystem_Aura-main\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderShaderInfo\Default.rc2.res"
+"D:\OfficeWork\Github\GASProject_Demo\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderShaderInfo\Module.RiderShaderInfo.cpp.obj"
+"D:\OfficeWork\Github\GASProject_Demo\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderShaderInfo\Default.rc2.res"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Core\UnrealEditor-Core.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Projects\UnrealEditor-Projects.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\RenderCore\UnrealEditor-RenderCore.lib"
@@ -65,7 +65,7 @@
 "synchronization.lib"
 "dwmapi.lib"
 "imm32.lib"
-/OUT:"D:\OfficeWork\Github\GameplayAbilitySystem_Aura-main\Plugins\Developer\RiderLink\Binaries\Win64\UnrealEditor-RiderShaderInfo.dll"
-/IMPLIB:"D:\OfficeWork\Github\GameplayAbilitySystem_Aura-main\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderShaderInfo\UnrealEditor-RiderShaderInfo.sup.lib"
-/PDB:"D:\OfficeWork\Github\GameplayAbilitySystem_Aura-main\Plugins\Developer\RiderLink\Binaries\Win64\UnrealEditor-RiderShaderInfo.pdb"
+/OUT:"D:\OfficeWork\Github\GASProject_Demo\Plugins\Developer\RiderLink\Binaries\Win64\UnrealEditor-RiderShaderInfo.dll"
+/IMPLIB:"D:\OfficeWork\Github\GASProject_Demo\Plugins\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderShaderInfo\UnrealEditor-RiderShaderInfo.sup.lib"
+/PDB:"D:\OfficeWork\Github\GASProject_Demo\Plugins\Developer\RiderLink\Binaries\Win64\UnrealEditor-RiderShaderInfo.pdb"
 /ignore:4078

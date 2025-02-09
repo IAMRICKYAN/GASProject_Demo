@@ -7,7 +7,7 @@
 /I "Runtime\Json\Public"
 /I "Runtime\RenderCore\Public"
 /I "Runtime\RHI\Public"
-/I "D:\OfficeWork\Github\GameplayAbilitySystem_Aura-main\Plugins\Developer\RiderLink\Source"
+/I "D:\OfficeWork\Github\GASProject_Demo\Plugins\Developer\RiderLink\Source"
 /external:W0
 /external:I "ThirdParty\mimalloc\include"
 /external:I "D:\OfficeWork\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE"

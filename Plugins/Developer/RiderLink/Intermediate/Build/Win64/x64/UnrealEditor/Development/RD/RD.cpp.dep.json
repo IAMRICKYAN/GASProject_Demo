@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "d:\\officework\\github\\gameplayabilitysystem_aura-main\\plugins\\developer\\riderlink\\source\\rd\\rd.cpp",
+        "Source": "d:\\officework\\github\\gasproject_demo\\plugins\\developer\\riderlink\\source\\rd\\rd.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "d:\\officework\\github\\gameplayabilitysystem_aura-main\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\rd\\definitions.h",
-            "d:\\officework\\github\\gameplayabilitysystem_aura-main\\plugins\\developer\\riderlink\\source\\rd\\rd.h",
+            "d:\\officework\\github\\gasproject_demo\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\rd\\definitions.h",
+            "d:\\officework\\github\\gasproject_demo\\plugins\\developer\\riderlink\\source\\rd\\rd.h",
             "f:\\epicgames\\epic games\\ue_5.3\\engine\\source\\runtime\\core\\public\\logging\\logmacros.h",
             "f:\\epicgames\\epic games\\ue_5.3\\engine\\source\\runtime\\core\\public\\containers\\unrealstring.h",
             "f:\\epicgames\\epic games\\ue_5.3\\engine\\source\\runtime\\core\\public\\coretypes.h",
