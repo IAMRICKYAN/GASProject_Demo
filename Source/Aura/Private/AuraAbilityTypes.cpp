@@ -6,6 +6,7 @@ bool FAuraGameplayEffectContext::NetSerialize(FArchive& Ar, UPackageMap* Map, bo
 	uint32 RepBits = 0;
 	if (Ar.IsSaving())
 	{
+		// 设置复制位以指示哪些数据需要被序列化
 		if (bReplicateInstigator && Instigator.IsValid())
 		{
 			RepBits |= 1 << 0;
@@ -90,6 +91,7 @@ bool FAuraGameplayEffectContext::NetSerialize(FArchive& Ar, UPackageMap* Map, bo
 		
 	}
 
+	// 序列化复制位
 	Ar.SerializeBits(&RepBits, 19);
 
 	if (RepBits & (1 << 0))
@@ -193,7 +195,7 @@ bool FAuraGameplayEffectContext::NetSerialize(FArchive& Ar, UPackageMap* Map, bo
 		}
 	}
 	
-
+	// 如果是加载过程，初始化 InstigatorAbilitySystemComponent
 	if (Ar.IsLoading())
 	{
 		AddInstigator(Instigator.Get(), EffectCauser.Get()); // Just to initialize InstigatorAbilitySystemComponent
