@@ -61,13 +61,21 @@ class AURA_API UAuraAttributeSet : public UAttributeSet
 	GENERATED_BODY()
 public:
 	UAuraAttributeSet();
+	// 虚拟函数，用于获取需要在其生命周期内进行复制的属性列表
 	virtual void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
+	// 虚拟函数，在属性值改变之前调用，允许对新的属性值进行预处理
 	virtual void PreAttributeChange(const FGameplayAttribute& Attribute, float& NewValue) override;
+
+	// 虚拟函数，在游戏效果执行后调用，允许对执行结果进行后处理
 	virtual void PostGameplayEffectExecute(const FGameplayEffectModCallbackData& Data) override;
+
+	// 虚拟函数，在属性值改变之后调用，允许对属性变化进行响应
 	virtual void PostAttributeChange(const FGameplayAttribute& Attribute, float OldValue, float NewValue) override;
 
+	// 映射表，将游戏标签映射到静态函数指针，这些函数指针返回对应的游戏属性
 	TMap<FGameplayTag, TStaticFuncPtr<FGameplayAttribute()>> TagsToAttributes;
+
 	
 	/*
 	 * Primary Attributes
@@ -239,13 +247,29 @@ public:
 	void OnRep_PhysicalResistance(const FGameplayAttributeData& OldPhysicalResistance) const;
 
 private:
+	// 处理传入的伤害，根据效果属性执行相应的伤害逻辑
 	void HandleIncomingDamage(const FEffectProperties& Props);
+
+	// 处理传入的经验值，根据效果属性执行相应的经验值逻辑
 	void HandleIncomingXP(const FEffectProperties& Props);
+
+	// 应用减益效果，根据效果属性减少角色的某些属性值
 	void Debuff(const FEffectProperties& Props);
+
+	// 根据游戏效果修改的数据设置效果的属性，用于在游戏效果应用时更新效果的相关信息
 	void SetEffectProperties(const FGameplayEffectModCallbackData& Data, FEffectProperties& Props) const;
+
+	// 显示浮动文本，用于在屏幕上显示伤害数值、是否格挡、是否暴击等信息
 	void ShowFloatingText(const FEffectProperties& Props, float Damage, bool bBlockedHit, bool bCriticalHit) const;
+
+	// 发送经验值事件，用于通知游戏系统有经验值获取，可能触发相应的逻辑或界面更新
 	void SendXPEvent(const FEffectProperties& Props);
+
+	// 控制变量，用于标识是否需要将健康值补满
 	bool bTopOffHealth = false;
+
+	// 控制变量，用于标识是否需要将法力值补满
 	bool bTopOffMana = false;
+
 };
 

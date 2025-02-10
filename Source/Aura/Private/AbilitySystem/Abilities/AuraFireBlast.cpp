@@ -75,8 +75,11 @@ FString UAuraFireBlast::GetNextLevelDescription(int32 Level)
 TArray<AAuraFireBall*> UAuraFireBlast::SpawnFireBalls()
 {
 	TArray<AAuraFireBall*> FireBalls;
+	// 获取角色向前向量
 	const FVector Forward = GetAvatarActorFromActorInfo()->GetActorForwardVector();
+	// 获取角色位置
 	const FVector Location = GetAvatarActorFromActorInfo()->GetActorLocation();
+	// 计算均匀分布的旋转角度
 	TArray<FRotator> Rotators = UAuraAbilitySystemLibrary::EvenlySpacedRotators(Forward, FVector::UpVector, 360.f, NumFireBalls);
 
 	for (const FRotator& Rotator : Rotators)
@@ -85,6 +88,7 @@ TArray<AAuraFireBall*> UAuraFireBlast::SpawnFireBalls()
 		SpawnTransform.SetLocation(Location);
 		SpawnTransform.SetRotation(Rotator.Quaternion());
 		
+		// 延迟生成火球 actor
 		AAuraFireBall* FireBall = GetWorld()->SpawnActorDeferred<AAuraFireBall>(
 			FireBallClass,
 			SpawnTransform,
@@ -92,17 +96,25 @@ TArray<AAuraFireBall*> UAuraFireBlast::SpawnFireBalls()
 			CurrentActorInfo->PlayerController->GetPawn(),
 			ESpawnActorCollisionHandlingMethod::AlwaysSpawn);
 		
+		// 设置火球的伤害效果参数
 		FireBall->DamageEffectParams = MakeDamageEffectParamsFromClassDefaults();
+		// 设置火球返回的目标为角色
 		FireBall->ReturnToActor = GetAvatarActorFromActorInfo();
+		// 设置火球的拥有者为角色
 		FireBall->SetOwner(GetAvatarActorFromActorInfo());
 
+		// 设置火球爆炸伤害参数
 		FireBall->ExplosionDamageParams = MakeDamageEffectParamsFromClassDefaults();
+		// 再次设置火球的拥有者为角色
 		FireBall->SetOwner(GetAvatarActorFromActorInfo());
 
+		// 将生成的火球添加到数组中
 		FireBalls.Add(FireBall);
 
+		// 完成火球的生成
 		FireBall->FinishSpawning(SpawnTransform);
 	}
 	
+	// 返回生成的火球数组
 	return FireBalls;
 }
