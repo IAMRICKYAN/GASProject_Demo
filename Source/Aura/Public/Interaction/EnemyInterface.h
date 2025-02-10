@@ -23,9 +23,12 @@ class AURA_API IEnemyInterface
 	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
 public:
 
+	// 蓝图可调用和蓝图原生事件，用于设置战斗目标
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
 	void SetCombatTarget(AActor* InCombatTarget);
 
+	// 蓝图可调用和蓝图原生事件，用于获取当前战斗目标
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
 	AActor* GetCombatTarget() const;
+
 };
