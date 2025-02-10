@@ -221,7 +221,6 @@ void AAuraEnemy::StunTagChanged(const FGameplayTag CallbackTag, int32 NewCount)
 	if (AuraAIController && AuraAIController->GetBlackboardComponent())
 	{
 		// 根据新计数判断是否处于击晕状态，并更新黑板上的"Stunned"键的值
-		bool bIsStunned = NewCount > 0;
 		AuraAIController->GetBlackboardComponent()->SetValueAsBool(FName("Stunned"), bIsStunned);
 	}
 }
